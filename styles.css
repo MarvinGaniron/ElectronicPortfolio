@@ -66,10 +66,17 @@ div.bio {
 div.bio div{
     text-align: center;
     width:50%;
+    height: 500px;
+    float:left;
+}
+div.bio div.bioInfo div{
+    text-align: center;
+    width: 100%;
     float:left;
 }
 #bioText {
     margin:20px;
+    font-size: 150%;
 }
 
 ul.certifications {
@@ -97,6 +104,7 @@ li.certifications {
     background-color: DodgerBlue;
 }
 .flex-container div{
+    display: flex;
     width: 100%;
     justify-content: center;
     align-items: center;
@@ -117,4 +125,35 @@ div.img img {
     width: 100%;
     height: 100%;
     border: 4px solid black; 
+}
+
+div.imgHeadshot {
+    display: flex;
+    min-width: 400px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+div.imgHeadshot img {
+    border: 3px solid;
+    min-width: 300px;
+    border-radius: 25px;
+}
+
+.divResume {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.resume {
+    width: 40%;
+    height: 500px;
+    border: 2px solid #000;
+}
+
+.allResume{
+    width: 100%;
 }
