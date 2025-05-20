@@ -13,10 +13,13 @@ p {
 }
 
 #contact {
-    text-align: center;
-    
+    text-align: right;
+    color: white;
 }
-
+#contactFullName {
+    color:white;
+    font-size: 35px;
+}
 nav {
     margin-bottom: 50px;
 }
@@ -60,22 +63,21 @@ li a:hover:not(.active) {
     text-decoration: none; 
 }
 div.bio {
-    width:100%;
+    width:90%;
     overflow:auto;
 }
 div.bio div{
     text-align: center;
     width:50%;
-    height: 500px;
     float:left;
+    margin-bottom: 50px;
 }
 div.bio div.bioInfo div{
     text-align: center;
     width: 100%;
     float:left;
 }
-#bioText {
-    margin:20px;
+#bioText {  
     font-size: 150%;
 }
 
@@ -87,7 +89,7 @@ ul.certifications {
     border-radius: 25px;
     margin: 20px;
     padding: 5px 25px 5px 25px;
-    width: auto;
+    width: 100%;
 
 }
 li.certifications {
@@ -101,7 +103,6 @@ li.certifications {
 .flex-container {
     display: flex;
     flex-wrap: wrap;
-    background-color: DodgerBlue;
 }
 .flex-container div{
     display: flex;
@@ -110,26 +111,8 @@ li.certifications {
     align-items: center;
 }
 
-div.img {
-    margin: 10px;
-    border: 1px;  
-    float: left;
-    width: 23%;
-}
-
-div.img img:hover {
-    border: 4px solid #777;
-}
-
-div.img img {
-    width: 100%;
-    height: 100%;
-    border: 4px solid black; 
-}
-
 div.imgHeadshot {
     display: flex;
-    min-width: 400px;
     justify-content: center;
     align-items: center;
 
@@ -137,23 +120,173 @@ div.imgHeadshot {
 
 div.imgHeadshot img {
     border: 3px solid;
-    min-width: 300px;
     border-radius: 25px;
 }
 
-.divResume {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
+#goalText {
+    font-size: 150%;
+    padding: 20px;
 }
 
-.resume {
-    width: 40%;
+#personalStatementText {
+    font-size: 150%;
+    padding: 20px;
+}
+
+#personalStatementTitle {
+    text-align: center;
+}
+
+#goalTitle {
+    text-align: center;
+}
+
+hr {
+    height:2px;
+    border-width:0;
+    color:gray;
+    background-color:gray;
+    width:90%;
+}
+.contactAll{
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    margin-top: 50px;
+    font-size: 150%;
+    background-color: #333;
+    padding:40px;
+}
+
+.contanctInfo {
+    width: 50%;
+}
+.contactName {
+    width: 50%;
+}
+.goal {
+    width:90%;
+    justify-self: center;
+}
+
+.personalStatement {
+    width:90%;
+    justify-self: center;
+}
+
+div.img2022_2023{
+    width: 49%;
+    border: 1px solid black; 
+}
+div.img2022_2023 div{
+    display: flex;
+    flex-wrap: wrap;
+}
+div.img2023_2024{
+    width: 49%;
+    border: 1px solid black; 
+}
+div.img2023_2024 div{
+    display: flex;
+    flex-wrap: wrap;
+}
+div.img2024_2025{
+    width: 49%;
+    border: 1px solid black;
+}
+div.img2024_2025 div{
+    display: flex;
+    flex-wrap: wrap;
+}
+div.img2025_2026{
+    width: 49%;
+    border: 1px solid black;
+}
+div.titleFreshman{
+    width: 100%;
+}
+div.allCertification{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+    justify-content: center;
+}
+
+div.img {
+    margin: 10px;
+    border: 1px;  
+    float: left;
+    width: 30%;
+}
+
+div.img img:hover {
+    border: 4px solid #777;
+    cursor: pointer;
+}
+
+div.img img {
+    width: 100%;
+    border: 4px solid black; 
+}
+
+.allDiv{
+    display: flex;
+    flex-wrap: wrap;
+    width:90%;
+    justify-self: center;
+}
+
+.allText{
+    width: 49%;
+    height: fit-content;
+}
+.textTitle{
+    text-align: center;
+}
+.textP{
+    font-size: 150%;
+}
+.pdf{
+    width: 85%;
     height: 500px;
     border: 2px solid #000;
 }
-
-.allResume{
-    width: 100%;
+.divpdf{
+    display: flex;
+    width: 49%;
+    justify-content: center;
+    align-items: center;
+}
+.button {
+  background-color: grey;
+  border: 2px solid #e7e7e7;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;    
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+  transition-duration: 0.4s;
+}
+.button:hover{
+    background-color: #555555;
+    color: white;
+}
+.buttonDiv {
+    display: flex;
+    width: 49%;
+    justify-content: center;
+}
+.right{
+    float: right;
+}
+.left{
+    float: left;
+}
+.red{
+    background-color: red;
 }
